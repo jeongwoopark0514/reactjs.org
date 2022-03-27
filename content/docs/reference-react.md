@@ -371,7 +371,7 @@ While this is not supported today, in the future we plan to let `Suspense` handl
 ```js
 React.startTransition(callback)
 ```
-`React.startTransition` lets you mark updates inside the provided callback as transitions. This method is designed to be used outside a hook context when [`React.useTransition`](/docs/hooks-reference.html#usetransition) is not available.
+`React.startTransition` lets you mark updates inside the provided callback as transitions. This method is designed to be used when [`React.useTransition`](/docs/hooks-reference.html#usetransition) is not available.
 
 > Note:
 >
